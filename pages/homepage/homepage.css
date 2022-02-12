@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: var(--BANNER-TEXT);
     background-blend-mode: hue;
     opacity: 0.8;
     transition: all 0.2s ease-in-out;
