@@ -9,7 +9,6 @@
   padding: 1rem;
 
   font-weight: 500;
-  color: #282c3f;
 
   padding: 1rem;
   box-sizing: border-box;
@@ -36,8 +35,8 @@
 .nav-section {
   display: flex;
   align-items: center;
+  width: 50%;
 }
-
 .nav-section-items {
   box-sizing: border-box;
   padding: 0 1rem;
@@ -47,19 +46,18 @@
   box-sizing: border-box;
   padding: 0 1rem;
 }
-
 .avatar-in-nav-links {
   display: none;
 }
-
 .nav-bar-links {
   display: flex;
   z-index: 5;
 }
-
 .nav-icons {
   display: flex;
   justify-self: right;
+  box-sizing: border-box;
+  padding: 0 1rem;
 }
 .nav-icon-link {
   display: flex;
@@ -73,7 +71,7 @@
   font-family: "Poppins", sans-serif;
 }
 .nav-icon-link .nav-icon {
-  color: #696b79;
+  color: var(--NAV-ICON);
   width: 1.2rem;
   height: 1.2rem;
   font-size: 1.2rem;
@@ -83,11 +81,11 @@
   width: 100%;
 }
 .search-bar {
-  background-color: rgb(245, 245, 246);
+  background-color: var(--SEARCH-BAR-BG);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(105, 110, 121);
+  color: var(--SEARCH-BAR);
   border-radius: 5px;
   justify-self: right;
 }
@@ -110,7 +108,7 @@
 .burger .line1, .burger .line2, .burger .line3 {
   height: 2px;
   width: 1.5rem;
-  background-color: #424553;
+  background-color: var(--SEARCH-BAR);
   margin: 5px 0;
 }
 .nav-logo-title {
@@ -247,7 +245,7 @@ form, .form-title {
   color: white;
 }
 .nav-section {
-  width: 50%;
+  
 }
 .nav-logo {
   width: 100%;
@@ -260,14 +258,6 @@ form, .form-title {
   font-weight: 500;
   box-sizing: border-box;
 }
-.nav-bar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.625rem 1.5rem;
-}
-
 .logo-and-symbol-style {
   font-size: 1rem;
   margin-right: 3px;
@@ -284,16 +274,9 @@ form, .form-title {
   text-decoration: none;
   font-weight: 400;
 }
-
 .navlinks-active {
-  color: var(--primary-color);
+  color: var(--PRIMARY-P1);
 }
-
-.nav-icons {
-  box-sizing: border-box;
-  padding: 0 1rem;
-}
-
 .search-bar {
   border-radius: 5px;
   position: relative;
@@ -307,32 +290,9 @@ form, .form-title {
   background-color: white;
   border: 1px solid rgb(199, 199, 201);
 }
-
-.datalist-for-search {
-  position: absolute;
-  top: calc(2.4rem + 2px);
-  padding: 1rem 0rem;
-  background-color: white;
-  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
-  width: 100%;
-  overflow-y: auto;
-}
-.suggestion-item {
-  padding: 4px 1rem;
-}
-.suggestion-item:hover {
-  background-color: rgb(225, 225, 226);
-}
-
 .search-clear-icon {
   position: absolute;
   top: 10px;
   right: 8px;
   z-index: 1;
-}
-.hide-in-desktop {
-  display: none;
-}
-.hide-in-mobile {
-  display: block;
 }
