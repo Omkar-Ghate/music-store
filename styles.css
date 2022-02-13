@@ -1,5 +1,7 @@
 @import url("./css/root-values.css");
 @import url("./css/utils.css");
 @import url("./pages/login/login.css");
+@import url("./pages/signup/signup.css");
 @import url("./pages/homepage/homepage.css");
 @import url("./pages/wishlist/wishlist.css");
+@import url("./pages/cart/cart.css");
