@@ -16,66 +16,68 @@
     <!-- From styles.css: navigation part to be added to CL -->
     <link rel="stylesheet" href="../../styles.css">
 </head>
-<header>
-    <nav class="nav-bar shadow-box">
-        <div class="nav-section">
-            <div class="burger nav-section-items">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+
+<body>
+    <header>
+        <nav class="nav-bar shadow-box">
+            <div class="nav-section">
+                <div class="burger nav-section-items">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <div class="nav-logo nav-section-items logo">
+                    <a href="#">
+                        <div class="navbar-logo flex flex-center">
+                            <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
 
-            <div class="nav-logo nav-section-items logo">
-                <a href="#">
-                    <div class="navbar-logo flex flex-center">
-                        <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
-                    </div>
-                </a>
+            <div class="nav-section">
+                <label class="search-bar nav-section-item-width50pc">
+                    <span class="search-bar-btn" type="submit"><i class="fa fa-search"> </i></span>
+                    <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
+                </label>
+
+                <ul class="nav-icons list-style-none nav-section-item-width50pc">
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-heart"></i>
+                                <span class="status-badge status-badge-number">4</span>
+                            </span>
+                            <span class="nav-icon-text">
+                                Wishlist
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-shopping-cart"></i>
+                                <span class="status-badge status-badge-number">2</span>
+                            </span>
+                            <span class="nav-icon-text">
+                                Cart
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item hide-profile-mobile">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-user"></i>
+                            </span>
+                            <span class="nav-icon-text">
+                                Login
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
+    </header>
 
-        <div class="nav-section">
-            <label class="search-bar nav-section-item-width50pc">
-                <span class="search-bar-btn" type="submit"><i class="fa fa-search"> </i></span>
-                <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
-            </label>
-
-            <ul class="nav-icons list-style-none nav-section-item-width50pc">
-                <li class="list-inline-item">
-                    <a class="nav-icon-link link-no-style">
-                        <span class="btn-icon badge-container"><i class="fas fa-heart"></i>
-                            <span class="status-badge status-badge-number">4</span>
-                        </span>
-                        <span class="nav-icon-text">
-                            Wishlist
-                        </span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="nav-icon-link link-no-style">
-                        <span class="btn-icon badge-container"><i class="fas fa-shopping-cart"></i>
-                            <span class="status-badge status-badge-number">2</span>
-                        </span>
-                        <span class="nav-icon-text">
-                            Cart
-                        </span>
-                    </a>
-                </li>
-                <li class="list-inline-item hide-profile-mobile">
-                    <a class="nav-icon-link link-no-style">
-                        <span class="btn-icon badge-container"><i class="fas fa-user"></i>
-                        </span>
-                        <span class="nav-icon-text">
-                            Login
-                        </span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
-<main>
+    <main>
         <div class='hero-image display-flex vertical-middle'>
             <div class='text-center'>
                 <div>
@@ -90,7 +92,8 @@
         <div class='homepage-container'>
 
             <h2 class='text-center feature-title'>Featured Products</h2>
-            <hr class='title-underline'></hr>
+            <hr class='title-underline'>
+            </hr>
 
             <div class='grid-4-column-layout brand-list'>
                 <div class="card-vertical default-container flex-items shadow-box">
@@ -192,7 +195,8 @@
 
 
             <h2 class='text-center feature-title'>Popular Categories</h2>
-            <hr class='title-underline'></hr>
+            <hr class='title-underline'>
+            </hr>
 
             <div class='grid-4-column-layout'>
                 <div class="card-vertical card-hover">
@@ -209,8 +213,7 @@
                 <div class="card-vertical card-hover">
                     <div class="overlay-container">
                         <div class="image-container">
-                            <img loading="lazy" class="img-responsive" src="../../assets/string.png"
-                                alt="String" />
+                            <img loading="lazy" class="img-responsive" src="../../assets/string.png" alt="String" />
                         </div>
                         <div class="overlay-text text-center">
                             <div class="h4">String</div>
@@ -220,8 +223,7 @@
                 <div class="card-vertical card-hover">
                     <div class="overlay-container">
                         <div class="image-container">
-                            <img loading="lazy" class="img-responsive" src="../../assets/woodwind.png"
-                                alt="Woodwind" />
+                            <img loading="lazy" class="img-responsive" src="../../assets/woodwind.png" alt="Woodwind" />
                         </div>
                         <div class="overlay-text text-center">
                             <div class="h4">Woodwind</div>
@@ -231,8 +233,7 @@
                 <div class="card-vertical card-hover">
                     <div class="overlay-container">
                         <div class="image-container">
-                            <img loading="lazy" class="img-responsive" src="../../assets/brass.png"
-                                alt="Brass" />
+                            <img loading="lazy" class="img-responsive" src="../../assets/brass.png" alt="Brass" />
                         </div>
                         <div class="overlay-text text-center">
                             <div class="h4">Brass</div>
@@ -242,9 +243,7 @@
             </div>
         </div>
 
-</main>
-
-<body>
+    </main>
 </body>
 
 </html>
