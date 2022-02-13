@@ -1,0 +1,9 @@
+* {
+    transition: all 0.2s ease-in-out;
+}
+.active {
+    color: var(--PRIMARY-P1);
+}
+.nav-logo-title .link-text {
+    text-decoration: none;
+}
