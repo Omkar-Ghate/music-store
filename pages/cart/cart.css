@@ -1,0 +1,63 @@
+.cart-page {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 24rem;
+}
+.card-list {
+  width: 95%;
+  border-radius: 4px;
+}
+.card-list .btn {
+  padding: 5px;
+}
+.btn i {
+  padding-left: 5px;
+}
+.cart-product-qty {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+}
+.cart-product-qty label {
+  font-weight: 600;
+  position: absolute;
+  top: 1.2rem;
+}
+.cart-product-qty select {
+  padding: 2px;
+  padding-left: 2rem;
+  outline: none;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  border: none;
+}
+.cart-product-qty select:hover {
+  background: var(--COMPLIMENTARY);
+}
+.checkout-area {
+  margin: 1rem;
+  padding: 2rem 4rem;
+  height: fit-content;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.checkout-title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--SECONDARY-S3);
+  text-align: center;
+}
+.checkout-details,
+.checkout-total {
+  justify-content: space-between;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+.checkout-total {
+  border-top: 1px solid var(--SECONDARY-S3);
+  margin-top: 1rem;
+}
+.checkout-area .btn {
+  margin-top: 2rem;
+}
