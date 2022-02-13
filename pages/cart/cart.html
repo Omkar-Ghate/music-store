@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta cha₹et="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musik-Store|Cart</title>
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+        integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- From component library -->
+    <link rel="stylesheet" href="https://deploy-preview-7--pedantic-goldwasser-b0d967.netlify.app/styles.css" />
+    <!-- From styles.css: navigation part to be added to CL -->
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar shadow-box">
+            <div class="nav-section">
+                <div class="burger nav-section-items">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <div class="nav-logo nav-section-items logo">
+                    <a href="#">
+                        <div class="navbar-logo flex flex-center">
+                            <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <label class="search-bar nav-section-item-width50pc">
+                    <span class="search-bar-btn" type="submit"><i class="fa fa-search"> </i></span>
+                    <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
+                </label>
+
+                <ul class="nav-icons list-style-none nav-section-item-width50pc">
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-heart"></i>
+                                <span class="status-badge status-badge-number">4</span>
+                            </span>
+                            <span class="nav-icon-text">
+                                Wishlist
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-shopping-cart"></i>
+                                <span class="status-badge status-badge-number">2</span>
+                            </span>
+                            <span class="nav-icon-text">
+                                Cart
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item hide-profile-mobile">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="btn-icon badge-container"><i class="fas fa-user"></i>
+                            </span>
+                            <span class="nav-icon-text">
+                                Login
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class='text-center feature-title'>Wishlist</h2>
+        <hr class='title-underline'>
+        </hr>
+        <div class="cart-page">
+            <div class="cart-products-area flex f-col">
+
+
+                <div class="card-horizontal default-container flex-items shadow-box">
+                    <div class="image-container badge-container">
+                        <img loading="lazy" class="img-responsive card-img" src="../../assets/card-img1.jpg"
+                            alt="Product">
+                        <span class="badge bg-primary">New</span>
+                    </div>
+
+                    <div class="text-container">
+                        <div class="text-container-title">
+                            <h6 class="text-regular-weight">Violin</h6>
+                            <p class="body-cp-md">Full Size Acoustic Violin With Bow, Rosin & Soft Case<br>
+                                <small class="body-cp-sm text-light-weight secondary-text-color">
+                                    Sold by: Sergio Tordini
+                                </small>
+                            </p>
+                        </div>
+
+                        <div class="text-container-desc">
+                            <p> Comes with a Solid Spruce top, Solid Maple side and back, Ebony pegs, chin rest and
+                                fingerboard, Brazilwood bow with white ho₹ehair. </p>
+                            <p class="text-regular-weight flex-grow">₹.8999 <span class="text-light-weight"><span
+                                        class="text-strike-through">₹.9999</span><span
+                                        class="primary-text-color">10%</span></span></p>
+                        </div>
+
+                        <div class="CTA-Container">
+                            <a class="btn btn-text-icon-primary">
+                                <span class="btn-icon">
+                                    <iclass="fas fa-shopping-cart"></i>
+                                </span>Add to Cart
+                            </a>
+                            <a class="btn btn-outline-secondary">Move to Wishlist</a>
+                        </div>
+
+
+                        <div class="cart-product-qty-wrapper flex flex-center">
+                            <div class="cart-product-qty flex flex-center">
+                                <label for="qty">Qty:</label>
+                                <select name="qty" id="qty">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <button class="btn danger-text-color">
+                                <i class="btn-icon fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card-horizontal default-container flex-items shadow-box">
+                    <div class="image-container badge-container">
+                        <img loading="lazy" class="img-responsive card-img" src="../../assets/card-img1.jpg"
+                            alt="Product">
+                        <span class="badge bg-primary">New</span>
+                    </div>
+
+                    <div class="text-container">
+                        <div class="text-container-title">
+                            <h6 class="text-regular-weight">Violin</h6>
+                            <p class="body-cp-md">Full Size Acoustic Violin With Bow, Rosin & Soft Case<br>
+                                <small class="body-cp-sm text-light-weight secondary-text-color">
+                                    Sold by: Sergio Tordini
+                                </small>
+                            </p>
+                        </div>
+
+                        <div class="text-container-desc">
+                            <p> Comes with a Solid Spruce top, Solid Maple side and back, Ebony pegs, chin rest and
+                                fingerboard, Brazilwood bow with white ho₹ehair. </p>
+                            <p class="text-regular-weight flex-grow">₹.8999 <span class="text-light-weight"><span
+                                        class="text-strike-through">₹.9999</span><span
+                                        class="primary-text-color">10%</span></span></p>
+                        </div>
+
+                        <div class="CTA-Container">
+                            <a class="btn btn-text-icon-primary">
+                                <span class="btn-icon">
+                                    <iclass="fas fa-shopping-cart"></i>
+                                </span>Add to Cart
+                            </a>
+                            <a class="btn btn-outline-secondary">Move to Wishlist</a>
+                        </div>
+
+
+                        <div class="cart-product-qty-wrapper flex flex-center">
+                            <div class="cart-product-qty flex flex-center">
+                                <label for="qty">Qty:</label>
+                                <select name="qty" id="qty">
+                                    <option value="1">1</option>
+                                    <option value="2" selected>2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <button class="btn danger-text-color">
+                                <i class="btn-icon fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-horizontal default-container flex-items shadow-box">
+                    <div class="image-container badge-container">
+                        <img loading="lazy" class="img-responsive card-img" src="../../assets/card-img1.jpg"
+                            alt="Product">
+                        <span class="badge bg-primary">New</span>
+                    </div>
+
+                    <div class="text-container">
+                        <div class="text-container-title">
+                            <h6 class="text-regular-weight">Violin</h6>
+                            <p class="body-cp-md">Full Size Acoustic Violin With Bow, Rosin & Soft Case<br>
+                                <small class="body-cp-sm text-light-weight secondary-text-color">
+                                    Sold by: Sergio Tordini
+                                </small>
+                            </p>
+                        </div>
+
+                        <div class="text-container-desc">
+                            <p> Comes with a Solid Spruce top, Solid Maple side and back, Ebony pegs, chin rest and
+                                fingerboard, Brazilwood bow with white ho₹ehair. </p>
+                            <p class="text-regular-weight flex-grow">₹.8999 <span class="text-light-weight"><span
+                                        class="text-strike-through">₹.9999</span><span
+                                        class="primary-text-color">10%</span></span></p>
+                        </div>
+
+                        <div class="CTA-Container">
+                            <a class="btn btn-text-icon-primary">
+                                <span class="btn-icon">
+                                    <iclass="fas fa-shopping-cart"></i>
+                                </span>Add to Cart
+                            </a>
+                            <a class="btn btn-outline-secondary">Move to Wishlist</a>
+                        </div>
+
+                        <div class="cart-product-qty-wrapper flex flex-center">
+                            <div class="cart-product-qty flex flex-center">
+                                <label for="qty">Qty:</label>
+                                <select name="qty" id="qty">
+                                    <option value="1">1</option>
+                                    <option value="2" selected>2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <button class="btn danger-text-color">
+                                <i class="btn-icon fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-area flex f-col shadow-box">
+                <div class="checkout-title br-rad-none">CHECKOUT</div>
+                <div class="checkout-details flex">Quantity:<span>3</span></div>
+                <div class="checkout-details flex">
+                    Price:<span class="stc-orange-icon">₹29997</span>
+                </div>
+                <div class="checkout-details flex">
+                    Delivery:<span class="stc-orange-icon">₹399</span>
+                </div>
+                <div class="checkout-details flex">
+                    Discount:<span class="safe-text-color">-₹4560</span>
+                </div>
+                <div class="checkout-total flex br-rad-none">
+                    TOTAL :<span class="stc-orange-icon">₹25836</span>
+                </div>
+                <button class="btn btn-outline-secondary">
+                    Place Order
+                    <i class="btn-icon fas fa-check"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
