@@ -84,30 +84,6 @@
   padding: 0 1rem;
   align-content: flex-start;
 }
-.product-area .sui-card {
-  width: 13rem;
-}
-.product-area .card-img-wrapper {
-  max-height: 10rem;
-}
-.product-area .card-content-title {
-  font-size: 1rem;
-  max-height: 1.3rem;
-}
-.product-area .card-content-seller {
-  font-size: 1rem;
-}
-.product-area .card-price {
-  font-size: 1.2rem;
-  align-self: flex-start;
-}
-.product-area .card-price-old {
-  opacity: 0.5;
-  font-size: 1rem;
-  font-weight: 500;
-  text-decoration: line-through;
-  padding-bottom: 5px;
-}
 .product-area .btn {
   font-size: 1rem;
 }
