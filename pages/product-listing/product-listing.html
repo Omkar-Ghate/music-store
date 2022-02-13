@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musik-Store|Products</title>
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+        integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- From component library -->
+    <link rel="stylesheet" href="https://deploy-preview-7--pedantic-goldwasser-b0d967.netlify.app/styles.css" />
+    <!-- From styles.css: navigation part to be added to CL -->
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<header>
+    <nav class="nav-bar shadow-box">
+        <div class="nav-section">
+            <div class="burger nav-section-items">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <div class="nav-logo nav-section-items logo">
+                <a href="#">
+                    <div class="navbar-logo flex flex-center">
+                        <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-logo-title nav-section-items">
+                <a class="link-text link-text-primary" href="../homepage/homepage.html">Home</a>
+                <a class="link-text link-text-primary active" href="#">Products</a>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <label class="search-bar nav-section-item-width50pc">
+                <span class="search-bar-btn" type="submit"><i class="fa fa-search"> </i></span>
+                <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
+            </label>
+
+            <ul class="nav-icons list-style-none nav-section-item-width50pc">
+                <li class="list-inline-item">
+                    <a class="nav-icon-link link-no-style">
+                        <span class="btn-icon badge-container"><i class="fas fa-heart"></i>
+                            <span class="status-badge status-badge-number">4</span>
+                        </span>
+                        <span class="nav-icon-text">
+                            Wishlist
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-icon-link link-no-style">
+                        <span class="btn-icon badge-container"><i class="fas fa-shopping-cart"></i>
+                            <span class="status-badge status-badge-number">2</span>
+                        </span>
+                        <span class="nav-icon-text">
+                            Cart
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item hide-profile-mobile">
+                    <a class="nav-icon-link link-no-style">
+                        <span class="btn-icon badge-container"><i class="fas fa-user"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Login
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="product-main">
+    <div class="filter-area flex f-col shadow-box">
+        <div class="filter-title-section flex flex-center">
+            <span>FILTERS</span>
+            <a href="#" class="link-text link-text-primary">CLEAR ALL</a>
+        </div>
+        <ul class="filter-list-section br-rad-none">
+            <div class="filter-list-section-title">Sort</div>
+            <li>
+                <label>
+                    <input type="radio" name="sortByPrice" id="h2l" />
+                    Price High to Low
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="sortByPrice" id="l2h" />
+                    Price Low to High
+                </label>
+            </li>
+        </ul>
+        <ul class="filter-list-section br-rad-none flex-cl br-rad-none">
+            <div class="filter-list-section-title">Rating</div>
+            <input class="sort-slider" type="range" min="1" max="5" value="3" />
+            <label class="sort-slider-label flex" for="">
+                <span>1</span>
+                <span>3</span>
+                <span>5</span>
+            </label>
+        </ul>
+        <ul class="filter-list-section br-rad-none">
+            <div class="filter-list-section-title">Categories</div>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="tee" />
+                    Percussion
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="hoodie" />
+                    Brass
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    String
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Woodwind
+                </label>
+            </li>
+        </ul>
+        <ul class="filter-list-section br-rad-none">
+            <div class="filter-list-section-title">Brands</div>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Casio
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="tee" />
+                    Yamaha
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Mustang
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="hoodie" />
+                    Vault
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Ashton
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Granada
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Arctic
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="" id="sticker" />
+                    Mozart
+                </label>
+            </li>
+        </ul>
+    </div>
+    <div class="product-area flex flex-wrap">
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-secondary">Trending</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-secondary">Trending</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-primary">New</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-vertical default-container flex-items shadow-box">
+            <div class="image-container badge-container">
+                <img class="img-responsive card-img" src="../../assets/card-img1.jpg" alt="product-image">
+                <span class="badge bg-secondary">Trending</span>
+            </div>
+            <div class="text-container">
+                <div class="text-container-title">
+                    <h6 class="text-regular-weight product-title">Violin<button class="like-btn link-no-style"><span><i
+                                    class="fas fa-heart"></i></span></button>
+                    </h6>
+                </div>
+                <div class="text-container-desc display-flex-column">
+                    <p class="body-cp-md">Full Size Acoustic Violin</p>
+                    <p class="text-regular-weight flex-grow">Rs.8999 <span class="text-light-weight"><span
+                                class="text-strike-through">Rs.9999</span><span
+                                class="primary-text-color">10%</span></span></p>
+                </div>
+                <div class="CTA-Container">
+                    <a class="btn flex-items btn-text-icon-primary"><span class="btn-icon"><i
+                                class="fas fa-shopping-cart"></i></span>Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<body>
+</body>
+
+</html>

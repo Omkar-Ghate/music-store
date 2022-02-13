@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   width: 50%;
+  font-family: "Poppins", sans-serif;
 }
 .nav-section-items {
   box-sizing: border-box;
@@ -112,7 +113,9 @@
   margin: 5px 0;
 }
 .nav-logo-title {
-  display: none;
+ font-size: 1.2rem;
+ margin-left: 1rem;
+
 }
 .list-inline-item {
   margin: 1rem;
@@ -196,6 +199,9 @@ form, .form-title {
     margin: auto;
     transition: all 0.2s ease-in;
 }
+.link-text {
+    margin: 0 1rem;
+}
 .link:hover {
     color: var(--PRIMARY-P1);
 }
@@ -243,9 +249,6 @@ form, .form-title {
 }
 .avatar-in-nav-links i {
   color: white;
-}
-.nav-section {
-  
 }
 .nav-logo {
   width: 100%;
